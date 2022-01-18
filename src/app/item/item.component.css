@@ -1,0 +1,28 @@
+.btn {
+    margin-right: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 10px;
+}
+
+.btn:last-of-type {
+    margin-right: 0;
+}
+
+.btn-primary {
+    background-color: orangered;
+}
+
+.btn-secondary {
+    background-color: grey;
+}
+
+.item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
